@@ -1,0 +1,26 @@
+    wifi.o: wifi.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h wifiCom.h wifiFifo.h \
+ wifiConf.h wifi.h /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/network.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netIp.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netMask.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netGateway.h
+    wifiConf.o: wifiConf.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ wifiConf.h
+    wifiFifo.o: wifiFifo.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h wifiCom.h wifiFifo.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h
+    wifiState.o: wifiState.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h wifiCom.h wifiState.h

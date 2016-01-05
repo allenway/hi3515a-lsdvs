@@ -1,0 +1,2 @@
+    gpio.o: gpio.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h gpio.h

@@ -1,0 +1,23 @@
+    confFile.o: confFile.cpp \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/debug.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/linuxFile.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/mutex.h confFile.h
+    flash.o: flash.cpp \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/debug.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/const.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/mutex.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/message.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/mutex.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/malloc.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../public/crc.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/linuxFile.h flash.h \
+ norflash.h norflash3512.h confFile.h logfile.h
+    logfile.o: logfile.cpp logfile.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/mutex.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/linuxFile.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/debug.h
+    norflash.o: norflash.cpp \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/debug.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/linuxFile.h \
+ /mnt/hgfs/F/newversion20130925/src/lsdvs/../common/const.h norflash.h \
+ norflash3512.h

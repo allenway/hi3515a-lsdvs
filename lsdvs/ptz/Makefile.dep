@@ -1,0 +1,4 @@
+    ptz.o: ptz.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h ptz.h

@@ -1,0 +1,3 @@
+    reboot.o: reboot.cpp /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h

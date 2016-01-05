@@ -1,0 +1,105 @@
+    alarm.o: alarm.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h alarmLinkage.h \
+ alarmList.h alarm.h /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h alarmComm.h alarmIo.h \
+ alarmMd.h alarmVloss.h alarmShelter.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h
+    alarmComm.o: alarmComm.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ alarm.h /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h
+    alarmIo.o: alarmIo.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h alarmIo.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h alarmLinkage.h \
+ alarmList.h alarmComm.h /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h
+    alarmLinkage.o: alarmLinkage.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h alarmLinkage.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h
+    alarmList.o: alarmList.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/ringList.h alarmList.h
+    alarmMd.o: alarmMd.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h alarmMd.h alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h alarmLinkage.h \
+ alarmList.h alarmComm.h /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/md.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconMd.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h
+    alarmShelter.o: alarmShelter.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h alarmIo.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h alarmLinkage.h \
+ alarmList.h alarmComm.h /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mpiViFrame.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h
+    alarmVloss.o: alarmVloss.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h alarmIo.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h alarmLinkage.h \
+ alarmList.h alarmComm.h /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h

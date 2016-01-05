@@ -1,0 +1,50 @@
+    atCall.o: atCall.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ atCom.h /opt/work/Hi3515a/src/lsdvs/../common/sem.h
+    atCom.o: atCom.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/sem.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/gb2312.h atCom.h
+    atCsqlvl.o: atCsqlvl.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ atCom.h /opt/work/Hi3515a/src/lsdvs/../common/sem.h atEcho.h atCsqlvl.h
+    atEcho.o: atEcho.cpp atCom.h /opt/work/Hi3515a/src/lsdvs/../common/sem.h \
+ atEcho.h
+    atGps.o: atGps.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h atCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/sem.h atGps.h
+    atMsg.o: atMsg.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h atCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/sem.h atMsg.h
+    atPpp.o: atPpp.cpp
+    gpsCom.o: gpsCom.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h gpsCom.h
+    gpsGprmc.o: gpsGprmc.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h gpsCom.h gpsGprmc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h
+    threeg.o: threeg.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h threegAt.h threegGps.h \
+ gpsCom.h
+    threegAt.o: threegAt.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h atCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/sem.h atMsg.h threegSerial.h \
+ threegAt.h atEcho.h
+    threegGps.o: threegGps.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h threegSerial.h gpsCom.h \
+ gpsGprmc.h atGps.h threegGps.h
+    threegPpp.o: threegPpp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h threegPpp.h
+    threegSerial.o: threegSerial.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/serial/serial.h

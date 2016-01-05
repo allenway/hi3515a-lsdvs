@@ -1,0 +1,14 @@
+    hdd.o: hdd.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h hdd.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h hddrw.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h
+    hddLock.o: hddLock.cpp /opt/work/Hi3515a/src/lsdvs/../common/mutex.h
+    hddrw.o: hddrw.cpp /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ hddLock.h

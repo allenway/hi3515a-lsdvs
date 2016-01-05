@@ -1,0 +1,7 @@
+    writeUpdateFile.o: writeUpdateFile.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/md5.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h writeUpdateFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h

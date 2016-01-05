@@ -1,0 +1,19 @@
+    confFile.o: confFile.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h confFile.h
+    flash.o: flash.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/crc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h flash.h mtd.h \
+ confFile.h logfile.h
+    logfile.o: logfile.cpp logfile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    mtd.o: mtd.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h mtd.h

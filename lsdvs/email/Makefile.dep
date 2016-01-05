@@ -1,0 +1,4 @@
+    email.o: email.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h email.h

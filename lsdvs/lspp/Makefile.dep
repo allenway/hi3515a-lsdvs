@@ -1,0 +1,197 @@
+    avSendList.o: avSendList.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/ringList.h avSendList.h
+    avSendThread.o: avSendThread.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dataService.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h packData.h rtpService.h \
+ avSendList.h avSendThread.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hton.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h
+    configManage.o: configManage.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h strSafe.h sysConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h licence.h configManage.h \
+ configProtocol.h fitLspp.h /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ avSendList.h /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h
+    configProtocol.o: configProtocol.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/rand.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/md5.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h dataService.h \
+ sysConfig.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h packData.h lang.h table.h \
+ strSafe.h licence.h configManage.h configProtocol.h messageProtocol.h \
+ /opt/work/Hi3515a/src/lsdvs/wifi/wifiCom.h \
+ /opt/work/Hi3515a/src/lsdvs/wifi/wifiConf.h \
+ /opt/work/Hi3515a/src/lsdvs/wifi/wifiFifo.h \
+ /opt/work/Hi3515a/src/lsdvs/wifi/wifiCom.h \
+ /opt/work/Hi3515a/src/lsdvs/wifi/wifiState.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordList.h \
+ /opt/work/Hi3515a/src/lsdvs/datetime/realTime.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h avSendList.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/osdApply.h \
+ /opt/work/Hi3515a/src/lsdvs/ntp/ntpApp.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mympi.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordDel.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/dtu/dtuApp.h \
+ /opt/work/Hi3515a/src/lsdvs/piccap/snapSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/ftp/ftpJpg.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/network.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netMac.h \
+ /opt/work/Hi3515a/src/lsdvs/datetime/rtc.h
+    dataService.o: dataService.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dataService.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h
+    fitLspp.o: fitLspp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/network.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netMac.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hton.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h avSendList.h
+    lang.o: lang.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h strSafe.h lang.h table.h
+    licence.o: licence.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h strSafe.h licence.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    lsppApp.o: lsppApp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h avSendThread.h \
+ sysConfig.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h lsppApp.h
+    messageProtocol.o: messageProtocol.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h table.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dataService.h packData.h \
+ configProtocol.h /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ sysConfig.h searchProtocol.h transmitProtocol.h messageProtocol.h \
+ reportProtocol.h
+    packData.o: packData.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h packData.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h avSendList.h
+    reportProtocol.o: reportProtocol.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h packData.h dataService.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h messageProtocol.h \
+ reportProtocol.h fitLspp.h /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h avSendList.h
+    rtpService.o: rtpService.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h rtpService.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h
+    searchProtocol.o: searchProtocol.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h sysConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h packData.h \
+ messageProtocol.h searchProtocol.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h avSendList.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netIp.h
+    strSafe.o: strSafe.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ strSafe.h
+    sysConfig.o: sysConfig.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h strSafe.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h lang.h table.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h configManage.h \
+ sysConfig.h /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ configProtocol.h /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ fitLspp.h /opt/work/Hi3515a/src/lsdvs/procon/procon.h avSendList.h
+    table.o: table.cpp /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ strSafe.h table.h
+    talkbackList.o: talkbackList.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/ringList.h talkbackList.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    talkbackThread.o: talkbackThread.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dataService.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h rtpService.h packData.h \
+ talkbackList.h /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ talkbackThread.h fitLspp.h /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ avSendList.h
+    transmitProtocol.o: transmitProtocol.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h packData.h dataService.h \
+ messageProtocol.h transmitProtocol.h sysConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h fitLspp.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h avSendList.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/update/writeUpdateFile.h

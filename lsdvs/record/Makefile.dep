@@ -1,0 +1,80 @@
+    record.o: record.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconApp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h recordPool.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpRecord.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h record.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h recordSearch.h \
+ recordFit.h /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h recordDel.h \
+ recordGetH264.h /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hddrw.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h
+    recordDel.o: recordDel.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h record.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h recordSearch.h \
+ recordFit.h /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h recordDel.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hddrw.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h
+    recordFit.o: recordFit.cpp
+    recordGetH264.o: recordGetH264.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h recordPool.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpRecord.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h
+    recordList.o: recordList.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h recordList.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hicomm.h
+    recordPool.o: recordPool.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h recordPool.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpRecord.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconApp.h
+    recordSearch.o: recordSearch.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h recordSearch.h \
+ recordFit.h /opt/work/Hi3515a/src/lsdvs/hdd/hddrw.h

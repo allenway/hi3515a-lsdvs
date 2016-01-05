@@ -1,0 +1,23 @@
+    paramConfig.o: paramConfig.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/rand.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/md5.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h vencParamEasy.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h
+    paramManage.o: paramManage.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h paramConfig.h \
+ paramConfDefault.h /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ paramManage.h vencParamEasy.h
+    vencParamEasy.o: vencParamEasy.cpp paramManage.h paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h vencParamEasy.h

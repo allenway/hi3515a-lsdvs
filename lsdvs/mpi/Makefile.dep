@@ -1,0 +1,245 @@
+    fitMpi.o: fitMpi.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h osdApply.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h
+    md.o: md.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h md.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_math.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_video.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h encComm.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconMd.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h mpi_comm.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_errno.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_debug.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_rc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h
+    mpiApp.o: mpiApp.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h mpiApp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hton.h \
+ /opt/work/Hi3515a/src/lsdvs/system/showFps.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h mpiVenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h osdApply.h \
+ fitMpi.h osdViVo.h osdComm.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_math.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_video.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_errno.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_debug.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_rc.h \
+ snapMpi.h md.h /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ mympi.h /opt/work/Hi3515a/src/lsdvs/driver/tw2866Init.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/cx26828init.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ mpiViFrame.h
+    mpiAudio.o: mpiAudio.cpp mpiCommon.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_math.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_video.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_errno.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_debug.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_rc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ tw2865.h /opt/work/Hi3515a/src/lsdvs/../common/const.h mympi.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h mpi_comm.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    mpiViFrame.o: mpiViFrame.cpp mpiCommon.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_math.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_video.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_errno.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_debug.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_rc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aio.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_sys.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vb.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vo.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vdec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_aenc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_adec.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_adec.h \
+ tw2865.h /opt/work/Hi3515a/src/lsdvs/../common/const.h mympi.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h mympiAvenc.h mpiApp.h \
+ mpiViFrame.h /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h mpi_comm.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ai.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_ao.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vpss.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_vda.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_region.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_hdmi.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_hdmi.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h
+    mympi.o: mympi.cpp \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/mpi_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_type.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_math.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_defines.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_video.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_venc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_errno.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_debug.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_comm_rc.h \
+ /opt/work/Hi3515a/Hi3520D_SDK_V1.0.1.0/mpp/include/hi_common.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hicomm.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h mpiApp.h
+    mympiAvenc.o: mympiAvenc.cpp
+    od.o: od.cpp od.h
+    osdApply.o: osdApply.cpp
+    osdVi.o: osdVi.cpp
+    osdViVo.o: osdViVo.cpp
+    snapMpi.o: snapMpi.cpp

@@ -1,0 +1,1 @@
+lspp: ls private protocol 私有协议,该协议主要用于终端直接和客户端(IE控件)的直接交互。

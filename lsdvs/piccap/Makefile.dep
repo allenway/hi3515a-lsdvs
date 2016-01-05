@@ -1,0 +1,38 @@
+    snapApp.o: snapApp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/snapMpi.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/ipc/ipcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h
+    snapJpg.o: snapJpg.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconJpg.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpIpcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h
+    snapSearch.o: snapSearch.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h snapSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h
+    snapTimer.o: snapTimer.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h snapApp.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h

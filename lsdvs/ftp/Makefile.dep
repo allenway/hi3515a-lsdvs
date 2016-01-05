@@ -1,0 +1,23 @@
+    ftpFile.o: ftpFile.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ ftpLib.h ftpFile.h /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    ftpJpg.o: ftpJpg.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/condition.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconJpg.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/procon.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h ftpFile.h ftpLib.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpIpcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h
+    ftpLib.o: ftpLib.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ ftpLib.h

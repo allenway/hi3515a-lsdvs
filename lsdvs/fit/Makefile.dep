@@ -1,0 +1,9 @@
+    fit.o: fit.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mympi.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mpiApp.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/snapMpi.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/osdApply.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mpiViFrame.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/osdViVo.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/osdComm.h

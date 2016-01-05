@@ -1,0 +1,7 @@
+vedio audio is ok now
+单个通道的亮度色度对比度的调节未实现（adc芯片驱动）
+
+
+vbr画质控制过高时procon模块会出现丢帧，
+tbd(此时一个通道的码率会达到4M，但是我们暂时用不到，次问题tbd)
+tbd()

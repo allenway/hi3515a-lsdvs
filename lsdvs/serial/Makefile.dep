@@ -1,0 +1,3 @@
+    serial.o: serial.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h

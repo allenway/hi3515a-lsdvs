@@ -1,0 +1,7 @@
+    hyaline.o: hyaline.cpp /opt/work/Hi3515a/src/lsdvs/serial/serial.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h hyaline.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h

@@ -1,0 +1,12 @@
+    crc.o: crc.cpp crc.h
+    hashLinear.o: hashLinear.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h hashLinear.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h
+    hton.o: hton.cpp hton.h /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    network.o: network.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h network.h
+    ptpool.o: ptpool.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ ptpool.h /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h
+    sysRunTime.o: sysRunTime.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h

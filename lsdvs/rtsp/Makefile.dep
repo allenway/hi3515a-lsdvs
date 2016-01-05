@@ -1,0 +1,19 @@
+    dessdp.o: dessdp.c /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h rs_rtsp_commonLib.h \
+ rs_typeLib.h list.h
+    rs_miscLib.o: rs_miscLib.c rs_miscLib.h rs_typeLib.h
+    rs_rtpLib.o: rs_rtpLib.c rs_rtsp_commonLib.h rs_typeLib.h list.h \
+ rs_rtsp_base64Lib.h rs_rtpLib.h rs_miscLib.h rtspSLib.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h
+    rs_rtsp_base64Lib.o: rs_rtsp_base64Lib.c rs_typeLib.h rs_rtsp_base64Lib.h \
+ rtspSLib.h rs_rtpLib.h rs_rtsp_commonLib.h list.h rs_miscLib.h
+    rtspLib.o: rtspLib.c rtspLib.h rtspSLib.h rs_rtpLib.h rs_typeLib.h \
+ rs_rtsp_commonLib.h list.h rs_miscLib.h
+    rtspSLib.o: rtspSLib.c rs_rtsp_commonLib.h rs_typeLib.h list.h \
+ rs_rtsp_base64Lib.h rtspSLib.h rs_rtpLib.h rs_miscLib.h g711Lib.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h

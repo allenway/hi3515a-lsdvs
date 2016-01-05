@@ -1,0 +1,34 @@
+    cx26828init.o: cx26828init.cpp \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h driver.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h cx26828.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hicomm.h
+    cx26828setting.o: cx26828setting.cpp cx26828.h cx26828setting.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    driver.o: driver.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h driver.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h tw2866Init.h \
+ /opt/work/Hi3515a/src/lsdvs/mpi/mpiApp.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h tw2865.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hicomm.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h cx26828.h \
+ cx26828setting.h nvp1914.h
+    nvp1914.o: nvp1914.cpp driver.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h nvp1914.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h
+    tw2866Init.o: tw2866Init.cpp \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h driver.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h tw2865.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hicomm.h
+    tw2866Setting.o: tw2866Setting.cpp tw2865.h

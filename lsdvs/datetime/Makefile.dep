@@ -1,0 +1,9 @@
+    realTime.o: realTime.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h rtc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h
+    rtc.o: rtc.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h

@@ -1,0 +1,54 @@
+    test.o: test.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h test.h testMessage.h \
+ testStream.h testosd.h /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h
+    testDcp.o: testDcp.cpp
+    testEncParamSet.o: testEncParamSet.cpp
+    testIcmp.o: testIcmp.cpp
+    testIpc.o: testIpc.cpp /opt/work/Hi3515a/src/lsdvs/datetime/rtc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/gpio/gpio.h
+    testLog.o: testLog.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/rand.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h testLog.h
+    testMessage.o: testMessage.cpp
+    testMympi.o: testMympi.cpp
+    testPcp.o: testPcp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h
+    testProcon.o: testProcon.cpp
+    testProconH264Read.o: testProconH264Read.cpp
+    testProconJpg.o: testProconJpg.cpp
+    testRand.o: testRand.cpp
+    testReadUimage.o: testReadUimage.cpp
+    testRecord.o: testRecord.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h
+    testRecordFile.o: testRecordFile.cpp
+    testRtc.o: testRtc.cpp
+    testSaveFile.o: testSaveFile.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    testSnap.o: testSnap.cpp
+    testStream.o: testStream.cpp
+    testXml.o: testXml.cpp
+    testosd.o: testosd.cpp

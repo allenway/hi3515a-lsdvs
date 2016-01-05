@@ -1,0 +1,10 @@
+    ddnsApp.o: ddnsApp.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ ddnsFifo.h ddnsApp.h
+    ddnsFifo.o: ddnsFifo.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h ddnsFifo.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h

@@ -1,0 +1,39 @@
+    pcp.o: pcp.cpp pcp.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    pcpIpcSnap.o: pcpIpcSnap.cpp pcpIpcSnap.h pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h
+    pcpRecord.o: pcpRecord.cpp pcpRecord.h pcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h
+    procon.o: procon.cpp procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    proconApp.o: proconApp.cpp /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ proconApp.h proconH264.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h proconJpg.h procon.h \
+ pcpIpcSnap.h pcp.h /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ proconMd.h pcpRecord.h
+    proconH264.o: proconH264.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h procon.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h proconH264.h
+    proconJpg.o: proconJpg.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ procon.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h
+    proconMd.o: proconMd.cpp /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ procon.h /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h

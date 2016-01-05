@@ -1,0 +1,20 @@
+    base64.o: base64.cpp debug.h
+    condition.o: condition.cpp condition.h mutex.h
+    debug.o: debug.cpp mutex.h debug.h
+    epoll.o: epoll.cpp epoll.h
+    fifoList.o: fifoList.cpp malloc.h fifoList.h debug.h const.h
+    gb2312.o: gb2312.cpp gb2312.h
+    hash.o: hash.cpp hash.h
+    linuxFile.o: linuxFile.cpp timeExchange.h malloc.h linuxFile.h
+    malloc.o: malloc.cpp debug.h mutex.h malloc.h
+    md5.o: md5.cpp md5.h
+    message.o: message.cpp debug.h mutex.h malloc.h message.h
+    mutex.o: mutex.cpp mutex.h
+    netSocket.o: netSocket.cpp const.h debug.h netSocket.h
+    rand.o: rand.cpp
+    ringList.o: ringList.cpp malloc.h ringList.h
+    sem.o: sem.cpp sem.h
+    thread.o: thread.cpp debug.h thread.h
+    threadPool.o: threadPool.cpp debug.h thread.h malloc.h threadPool.h
+    timeExchange.o: timeExchange.cpp debug.h timeExchange.h
+    timer.o: timer.cpp debug.h thread.h malloc.h timer.h

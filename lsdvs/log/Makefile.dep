@@ -1,0 +1,11 @@
+    log.o: log.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timer.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/crc.h log.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h

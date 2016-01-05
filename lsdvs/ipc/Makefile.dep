@@ -1,0 +1,16 @@
+    ipcApp.o: ipcApp.cpp ipcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    ipcHttpSnap.o: ipcHttpSnap.cpp ipcHttpSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    ipcSnap.o: ipcSnap.cpp ipcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcpIpcSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/pcp.h ipcHttpSnap.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconApp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h

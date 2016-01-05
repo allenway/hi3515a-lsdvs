@@ -1,0 +1,203 @@
+    bhdcp.o: bhdcp.cpp dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpss.h
+    dcpFuncList.o: dcpFuncList.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpFuncList.h dcpStream.h \
+ dcpSearchRecord.h dcpSearchLog.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptpool.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h dcpUpdate.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h dcpRecDownload.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordDel.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/driver/driver.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netWire.h \
+ /opt/work/Hi3515a/src/lsdvs/alarm/alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/network.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netCom.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netMac.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netIp.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netGateway.h \
+ /opt/work/Hi3515a/src/lsdvs/net/netMask.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/datetime/realTime.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h \
+ /opt/work/Hi3515a/src/lsdvs/datetime/rtc.h bhdcp.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/sysRunTime.h \
+ /opt/work/Hi3515a/src/lsdvs/reboot/reboot.h \
+ /opt/work/Hi3515a/src/lsdvs/param/vencParamEasy.h
+    dcpFuncListLocal.o: dcpFuncListLocal.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpFuncListLocal.h \
+ /opt/work/Hi3515a/src/lsdvs/alarm/alarm.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/threadPool.h dcpFuncList.h
+    dcpFuncManage.o: dcpFuncManage.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h dcpFuncList.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpCom.h \
+ dcpFuncListLocal.h /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpFuncManage.h
+    dcpRecDownload.o: dcpRecDownload.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h dcpRecDownload.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h
+    dcpSearchLog.o: dcpSearchLog.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpSearchLog.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h
+    dcpSearchRecord.o: dcpSearchRecord.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/timeExchange.h dcpSearchRecord.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpInsLocal.h
+    dcpSignal.o: dcpSignal.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpFuncList.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpFuncManage.h \
+ dcpStream.h
+    dcpStream.o: dcpStream.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h dcpStream.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h dcpStreamMessage.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpStreamSend.h
+    dcpStreamMessage.o: dcpStreamMessage.cpp \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h
+    dcpStreamSend.o: dcpStreamSend.cpp \
+ /opt/work/Hi3515a/src/lsdvs/procon/proconH264.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h dcpStream.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h
+    dcpUpdate.o: dcpUpdate.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/hton.h \
+ /opt/work/Hi3515a/src/lsdvs/update/writeUpdateFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/public.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpFuncList.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpUpdate.h bhdcp.h \
+ /opt/work/Hi3515a/src/lsdvs/piccap/snapApp.h \
+ /opt/work/Hi3515a/src/lsdvs/hdd/hdd.h \
+ /opt/work/Hi3515a/src/lsdvs/fit/fit.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ttypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/record.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramManage.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfig.h \
+ /opt/work/Hi3515a/src/lsdvs/param/paramConfDefault.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordSearch.h \
+ /opt/work/Hi3515a/src/lsdvs/record/recordFit.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/flash.h \
+ /opt/work/Hi3515a/src/lsdvs/flash/mtd.h \
+ /opt/work/Hi3515a/src/lsdvs/log/log.h \
+ /opt/work/Hi3515a/src/lsdvs/reboot/reboot.h
+    dcpss.o: dcpss.cpp /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/debug.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/thread.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/malloc.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/message.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/linuxFile.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/netSocket.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/const.h \
+ /opt/work/Hi3515a/src/lsdvs/../common/mutex.h dcpCom.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpIns.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpTypes.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/ptypes.h dcpFuncList.h dcpSignal.h \
+ /opt/work/Hi3515a/src/lsdvs/../public/dcpErr.h dcpFuncManage.h
