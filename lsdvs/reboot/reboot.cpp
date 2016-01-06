@@ -23,6 +23,6 @@ void RebootAddTimer()
 void RebootSendMessage()
 {
     RebootAddTimer();
-    //MessageSend(MSG_ID_REBOOT); //出现段错误,tbd
+    //MessageSend(MSG_ID_REBOOT,NULL,0); //出现段错误,tbd
 }
 

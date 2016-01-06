@@ -370,6 +370,7 @@ int RtcSetTime( int year, int month, int day,
         tm.hour   = hour;
         tm.minute = minute;
         tm.second = second;
+		tm.weekday = 0;	//add by liulu,2016-1-6;此项不设置会导致时间设置不成功
         
         rtcRet = ioctl( rtcHandle, RTC_SET_TIME, &tm ); 
         if(rtcRet < 0)
